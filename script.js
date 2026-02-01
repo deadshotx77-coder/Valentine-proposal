@@ -22,6 +22,7 @@ function showMessage(response) {
     // Update text content and hide the name message
     document.getElementById("question").textContent =
       "Ek baar firse sochlo cutie";
+    document.getElementById("name").style.display = "none";
 
     // Add a mouseover event listener to the "No" button
     noButton.addEventListener("mouseover", () => {

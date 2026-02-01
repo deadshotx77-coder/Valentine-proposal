@@ -22,12 +22,13 @@ function showMessage(response) {
     // Update text content and hide the name message
     document.getElementById("question").textContent =
       "Ek baar firse sochlo cutie";
-    document.getElementById("name").style.display = "none";
 
     // Add a mouseover event listener to the "No" button
     noButton.addEventListener("mouseover", () => {
       if (!videoPlayed) {
         document.getElementsByClassName("image")[0].style.visibility = "hidden";
+        document.querySelector(".pp").style.marginTop = "100px";
+        
         const videoElement = document.createElement("video");
         videoElement.src = "./Maroon 5 - Sugar.mp4#t=42";
         videoElement.autoplay = true;

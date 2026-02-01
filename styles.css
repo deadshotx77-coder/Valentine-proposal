@@ -1,6 +1,6 @@
 body {
   font-family: "Lobster", cursive; /* Change to a romantic cursive font */
-  background-color: #ffdde1;
+  background-color: #E6E6FA;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -8,7 +8,7 @@ body {
   margin: 0;
   background: url("images/image.jpg") repeat;
   font-size: 35px;
-  color: rgb(255, 0, 174);
+  color: rgb(230, 230, 250);
 }
 .hh {
   -webkit-text-stroke: 2px #71004f;

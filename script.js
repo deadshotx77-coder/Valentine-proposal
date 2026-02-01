@@ -56,7 +56,7 @@ function showMessage(response) {
   if (response === "Yes") {
     // Remove the name message and the "No" button
     document.getElementById("name").remove();
-    document.getElementById("na-button").remove();
+    document.getElementById("no-button").remove();
     const videoElement = document.querySelector("video");
     if (videoElement) {
       videoElement.pause();

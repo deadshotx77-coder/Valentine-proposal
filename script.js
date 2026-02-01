@@ -1,7 +1,7 @@
 function showMessage(response) {
   let videoPlayed = false;
-  if (response === "No") {
-    const noButton = document.getElementById("no-button");
+  if (response === "Na") {
+    const noButton = document.getElementById("na-button");
     const maxWidth = window.innerWidth - noButton.offsetWidth;
     const maxHeight = window.innerHeight - noButton.offsetHeight;
 
@@ -56,7 +56,7 @@ function showMessage(response) {
   if (response === "Yes") {
     // Remove the name message and the "No" button
     document.getElementById("name").remove();
-    document.getElementById("no-button").remove();
+    document.getElementById("na-button").remove();
     const videoElement = document.querySelector("video");
     if (videoElement) {
       videoElement.pause();

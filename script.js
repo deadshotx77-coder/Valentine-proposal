@@ -1,7 +1,7 @@
 function showMessage(response) {
   let videoPlayed = false;
-  if (response === "Na") {
-    const noButton = document.getElementById("na-button");
+  if (response === "No") {
+    const noButton = document.getElementById("no-button");
     const maxWidth = window.innerWidth - noButton.offsetWidth;
     const maxHeight = window.innerHeight - noButton.offsetHeight;
 
